@@ -1,28 +1,45 @@
-BSD 3-Clause License
+Proprietary Software License Agreement
+InaGif Software License Agreement
 
-Copyright (c) 2024, thomasramon
+This Software License Agreement ("Agreement") is a legal agreement between you ("Licensee") and theramon ("Licensor") for the use of the InaGif software application ("Software"). By installing, copying, or otherwise using the Software, Licensee agrees to be bound by the terms of this Agreement.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+1. License Grant
+Licensor grants Licensee a non-exclusive, non-transferable, limited license to use the Software solely for personal or internal business purposes. Licensee may install and use the Software on a single device. The Software is licensed, not sold, and all rights not expressly granted in this Agreement are reserved by Licensor.
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+2. Restrictions
+Licensee shall not:
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+Copy, modify, or create derivative works based on the Software;
+Distribute, sublicense, rent, lease, or lend the Software to any third party;
+Reverse engineer, decompile, or disassemble the Software;
+Remove or alter any proprietary notices or labels on the Software.
+3. Ownership
+The Software is owned and copyrighted by Licensor. All title, ownership rights, and intellectual property rights in and to the Software and any copies thereof are and shall remain the property of Licensor.
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+4. Updates and Support
+Licensor may provide updates, enhancements, or modifications to the Software at its sole discretion. Such updates, if any, will be governed by this Agreement unless a separate agreement accompanies them. Licensor is under no obligation to provide support or maintenance services for the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+5. Termination
+This Agreement is effective until terminated. Licensee may terminate this Agreement at any time by destroying all copies of the Software in Licensee's possession. This Agreement will terminate immediately without notice from Licensor if Licensee fails to comply with any provision of this Agreement. Upon termination, Licensee must destroy all copies of the Software.
+
+6. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET LICENSEE'S REQUIREMENTS OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE.
+
+7. Limitation of Liability
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. Governing Law
+This Agreement shall be governed by and construed in accordance with the laws of California, without regard to its conflict of law principles.
+
+9. Entire Agreement
+This Agreement constitutes the entire agreement between the parties concerning the Software and supersedes all prior or contemporaneous understandings regarding such subject matter. No amendment to or modification of this Agreement will be binding unless in writing and signed by Licensor.
+
+Licensor Information:
+
+theramon
+[thomasjramon@gmail.com]
+
+Acceptance
+
+By using the InaGif software, Licensee acknowledges that they have read, understood, and agree to be bound by the terms and conditions of this Agreement.
+
