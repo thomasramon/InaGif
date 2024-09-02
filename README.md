@@ -4,6 +4,8 @@ InaGif is a macOS application that allows users to search for GIFs from their to
 
 If you hate the built in #images for imessages like I do, this app is what you "may" be looking for.
 
+![CleanShot 2024-09-01 at 20 53 22@2x](https://github.com/user-attachments/assets/e39cbc84-b18a-4765-bdd9-b30b1ac7e177)
+
 
 Features
 
