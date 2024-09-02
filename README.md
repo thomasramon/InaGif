@@ -1,5 +1,5 @@
 # InaGif
-InaGif
+
 InaGif is a macOS application that allows users to search for GIFs from their toolbar. The app is designed to be lightweight, running directly from the macOS menu bar, and provides a simple interface for searching and copying GIFs to the clipboard. This is my first app, and it is in SuperDuperAlpha.
 
 Features
