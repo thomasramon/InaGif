@@ -13,8 +13,9 @@ VISUAL CHANGES:
 NEW ICON- OLD ONE IS UHHH OLD AND JUST WA PLACE HOLDER
 UPDATED SPACING BETWEEN ITEMS, CREATING A MORE COMPACT VIEW.
 
-[![CleanShot 2024-09-01 at 20 53 22@2x](https://github.com/user-attachments/assets/e39cbc84-b18a-4765-bdd9-b30b1ac7e177)](https://share.cleanshot.com/8YjvHCTB)
 
+
+https://share.cleanshot.com/8YjvHCTB
 
 Features
 
