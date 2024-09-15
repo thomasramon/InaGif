@@ -15,7 +15,8 @@ UPDATED SPACING BETWEEN ITEMS, CREATING A MORE COMPACT VIEW.
 
 
 
-https://share.cleanshot.com/8YjvHCTB
+![Capture-16-09:15:2024:12-49 AM](https://github.com/user-attachments/assets/e6b18585-6b14-43e5-995f-04d6a084cb2a)
+
 
 Features
 
