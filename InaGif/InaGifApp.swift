@@ -1,17 +1,14 @@
-//
-//  InaGifApp.swift
-//  InaGif
-//
-//  Created by Ramon Thomas on 9/1/24.
-//
-
 import SwiftUI
+import AppKit
 
 @main
 struct InaGifApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView() // No visible window, just the settings if needed
         }
     }
 }
+

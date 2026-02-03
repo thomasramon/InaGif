@@ -1,18 +1,28 @@
-//
-//  EventMonitor.swift
-//  InaGif
-//
-//  Created by Ramon Thomas on 9/5/24.
-//
+import Cocoa
+import AppKit
 
-import SwiftUI
-
-struct EventMonitor: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+public class EventMonitor {
+    private var monitor: Any?
+    private let mask: NSEvent.EventTypeMask
+    private let handler: (NSEvent?) -> Void
+    
+    public init(mask: NSEvent.EventTypeMask, handler: @escaping (NSEvent?) -> Void) {
+        self.mask = mask
+        self.handler = handler
     }
-}
-
-#Preview {
-    EventMonitor()
+    
+    deinit {
+        stop()
+    }
+    
+    public func start() {
+        monitor = NSEvent.addGlobalMonitorForEvents(matching: mask, handler: handler)
+    }
+    
+    public func stop() {
+        if let monitor = monitor {
+            NSEvent.removeMonitor(monitor)
+            self.monitor = nil
+        }
+    }
 }

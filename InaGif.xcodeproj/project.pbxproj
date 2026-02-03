@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60B229F2C89708300007740 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B229E2C89708300007740 /* GifView.swift */; };
+		F60B22A12C89727E00007740 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B22A02C89727E00007740 /* WebView.swift */; };
+		F60B22A72C898FE700007740 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B22A62C898FE700007740 /* EventMonitor.swift */; };
+		F6B0A9DE2CA4FF9200B3A282 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B0A9DD2CA4FF9200B3A282 /* ContentViewModel.swift */; };
 		F6FA2B422C852286000BBB3F /* InaGifApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B412C852286000BBB3F /* InaGifApp.swift */; };
 		F6FA2B442C852286000BBB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B432C852286000BBB3F /* ContentView.swift */; };
 		F6FA2B462C852289000BBB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FA2B452C852289000BBB3F /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 		F6FA2B542C852289000BBB3F /* InaGifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B532C852289000BBB3F /* InaGifTests.swift */; };
 		F6FA2B5E2C852289000BBB3F /* InaGifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B5D2C852289000BBB3F /* InaGifUITests.swift */; };
 		F6FA2B602C852289000BBB3F /* InaGifUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B5F2C852289000BBB3F /* InaGifUITestsLaunchTests.swift */; };
+		F6FA2B6E2C8522CC000BBB3F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F6FA2B6D2C8522CC000BBB3F /* SDWebImageSwiftUI */; };
+		F6FA2B702C852752000BBB3F /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B6F2C852752000BBB3F /* PreferencesView.swift */; };
+		F6FA2B732C8527D3000BBB3F /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F6FA2B722C8527D3000BBB3F /* LaunchAtLogin */; };
+		F6FA2B752C852A3E000BBB3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA2B742C852A3E000BBB3F /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F60B229E2C89708300007740 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		F60B22A02C89727E00007740 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F60B22A62C898FE700007740 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		F6283E752C9F95CD00D9E906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F6B0A9DD2CA4FF9200B3A282 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F6FA2B3E2C852286000BBB3F /* InaGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InaGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA2B412C852286000BBB3F /* InaGifApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InaGifApp.swift; sourceTree = "<group>"; };
 		F6FA2B432C852286000BBB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,8 @@
 		F6FA2B592C852289000BBB3F /* InaGifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InaGifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA2B5D2C852289000BBB3F /* InaGifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InaGifUITests.swift; sourceTree = "<group>"; };
 		F6FA2B5F2C852289000BBB3F /* InaGifUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InaGifUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6FA2B6F2C852752000BBB3F /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		F6FA2B742C852A3E000BBB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FA2B732C8527D3000BBB3F /* LaunchAtLogin in Frameworks */,
+				F6FA2B6E2C8522CC000BBB3F /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +112,17 @@
 		F6FA2B402C852286000BBB3F /* InaGif */ = {
 			isa = PBXGroup;
 			children = (
+				F6283E752C9F95CD00D9E906 /* Info.plist */,
 				F6FA2B412C852286000BBB3F /* InaGifApp.swift */,
+				F60B229E2C89708300007740 /* GifView.swift */,
 				F6FA2B432C852286000BBB3F /* ContentView.swift */,
+				F6B0A9DD2CA4FF9200B3A282 /* ContentViewModel.swift */,
 				F6FA2B452C852289000BBB3F /* Assets.xcassets */,
 				F6FA2B4A2C852289000BBB3F /* InaGif.entitlements */,
+				F6FA2B6F2C852752000BBB3F /* PreferencesView.swift */,
+				F60B22A62C898FE700007740 /* EventMonitor.swift */,
+				F6FA2B742C852A3E000BBB3F /* AppDelegate.swift */,
+				F60B22A02C89727E00007740 /* WebView.swift */,
 				F6FA2B472C852289000BBB3F /* Preview Content */,
 			);
 			path = InaGif;
@@ -145,6 +169,10 @@
 			dependencies = (
 			);
 			name = InaGif;
+			packageProductDependencies = (
+				F6FA2B6D2C8522CC000BBB3F /* SDWebImageSwiftUI */,
+				F6FA2B722C8527D3000BBB3F /* LaunchAtLogin */,
+			);
 			productName = InaGif;
 			productReference = F6FA2B3E2C852286000BBB3F /* InaGif.app */;
 			productType = "com.apple.product-type.application";
@@ -193,7 +221,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					F6FA2B3D2C852286000BBB3F = {
 						CreatedOnToolsVersion = 15.4;
@@ -217,6 +245,10 @@
 				Base,
 			);
 			mainGroup = F6FA2B352C852286000BBB3F;
+			packageReferences = (
+				F6FA2B6C2C8522CC000BBB3F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				F6FA2B712C8527D3000BBB3F /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = F6FA2B3F2C852286000BBB3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B0A9DE2CA4FF9200B3A282 /* ContentViewModel.swift in Sources */,
+				F60B229F2C89708300007740 /* GifView.swift in Sources */,
+				F6FA2B752C852A3E000BBB3F /* AppDelegate.swift in Sources */,
 				F6FA2B442C852286000BBB3F /* ContentView.swift in Sources */,
+				F60B22A12C89727E00007740 /* WebView.swift in Sources */,
+				F60B22A72C898FE700007740 /* EventMonitor.swift in Sources */,
+				F6FA2B702C852752000BBB3F /* PreferencesView.swift in Sources */,
 				F6FA2B422C852286000BBB3F /* InaGifApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +369,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -394,6 +433,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -420,19 +460,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = InaGif/InaGif.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InaGif/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InaGif/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InaGif;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TheRamon.InaGif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -445,19 +494,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = InaGif/InaGif.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InaGif/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InaGif/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InaGif;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TheRamon.InaGif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -468,10 +526,10 @@
 		F6FA2B672C852289000BBB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
@@ -486,10 +544,10 @@
 		F6FA2B682C852289000BBB3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
@@ -504,9 +562,9 @@
 		F6FA2B6A2C852289000BBB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TheRamon.InaGifUITests;
@@ -520,9 +578,9 @@
 		F6FA2B6B2C852289000BBB3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TheRamon.InaGifUITests;
@@ -573,6 +631,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6FA2B6C2C8522CC000BBB3F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		F6FA2B712C8527D3000BBB3F /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6FA2B6D2C8522CC000BBB3F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6FA2B6C2C8522CC000BBB3F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		F6FA2B722C8527D3000BBB3F /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6FA2B712C8527D3000BBB3F /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6FA2B362C852286000BBB3F /* Project object */;
 }
